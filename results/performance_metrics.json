@@ -1,0 +1,38 @@
+{
+  "similarity_calculation": {
+    "traditional_tfidf": {
+      "accuracy": "普通偏下 (依賴字面重疊，無法識別語意關聯)",
+      "processing_time": "348.53 毫秒",
+      "cost": "0 USD (本地運算)"
+    },
+    "modern_ai": {
+      "accuracy": "高 (具備語意理解，能識別不同用詞的相似概念)",
+      "processing_time": "9.17 秒 (5x5 矩陣)",
+      "cost": "本次作業總呼叫費用 = 0.078 TWD"
+    }
+  },
+  "text_classification": {
+    "rule_based": {
+      "accuracy": "極低 (僅能識別明確定義的關鍵字)",
+      "processing_time": "0.4 秒",
+      "supported_categories": "有限 (需人工維護關鍵字)"
+    },
+    "modern_ai": {
+      "accuracy": "高 (精準識別情感與主題)",
+      "processing_time": "約 1.5 秒/句",
+      "supported_categories": "無限 (通用理解)"
+    }
+  },
+  "automatic_summarization": {
+    "statistical": {
+      "info_retention": "普通偏下 (擷取原文句子，不一定能截取到最為核心的內容)",
+      "fluency": "低 (不同段落選取的句子拼接，缺乏連貫性)",
+      "length_control": "困難，118字 (摘取原句，無法控制)"
+    },
+    "modern_ai": {
+      "info_retention": "高 (能理解重點並生成指定字數的摘要)",
+      "fluency": "很流暢",
+      "length_control": "容易，249字 (透過 Prompt 指定字數)"
+    }
+  }
+}

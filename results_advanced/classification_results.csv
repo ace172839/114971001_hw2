@@ -1,0 +1,9 @@
+text,method,sentiment,topic,confidence,latency_sec,expected_sentiment,expected_topic
+"這家餐廳的牛肉麵真的太好吃了,湯頭濃郁,麵條Q彈,下次一定再來!",traditional,positive,美食,1.0,0.0,positive,美食
+"這家餐廳的牛肉麵真的太好吃了,湯頭濃郁,麵條Q彈,下次一定再來!",gemini,positive,美食,0.95,1.2745,positive,美食
+"最新的AI技術突破讓人驚艷,深度學習模型的表現越來越好",traditional,positive,科技,1.0,0.0,positive,科技
+"最新的AI技術突破讓人驚艷,深度學習模型的表現越來越好",gemini,positive,科技,0.95,1.2543,positive,科技
+"這部電影劇情空洞,演技糟糕,完全是浪費時間",traditional,negative,other,0.5,0.0002,negative,other
+"這部電影劇情空洞,演技糟糕,完全是浪費時間",gemini,negative,other,0.95,1.5999,negative,other
+"每天慢跑5公里,配合適當的重訓,體能進步很多",traditional,neutral,other,0.25,0.0,positive,運動
+"每天慢跑5公里,配合適當的重訓,體能進步很多",gemini,positive,運動,0.9,1.1537,positive,運動

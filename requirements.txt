@@ -1,0 +1,9 @@
+jieba
+pandas
+scikit-learn
+# chinese-stop-words
+numpy
+matplotlib
+seaborn
+google-generativeai
+tqdm
